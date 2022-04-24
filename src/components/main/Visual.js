@@ -164,7 +164,9 @@ function Visual() {
 							<br /> Explicabo necessitatibus commodi ratione cupiditate debitis
 							provident excepturi odit, delectus voluptatem iste?
 						</h2>
-						<button>READ MORE</button>
+						<button>
+							<NavLink to='/member'>READ MORE</NavLink>
+						</button>
 					</div>
 				</div>
 			</div>

@@ -9,7 +9,22 @@ function Member() {
 
 	return (
 		<Layout name='Members'>
-			<div className='box'>ef</div>
+			<div className='box'>
+				<div className='inner'>
+					<h2>OUR AMAZING TEAM</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+						iste, dicta illo unde id, cum distinctio facilis blanditiis
+						perspiciatis, quidem nihil. Quae sunt consectetur fugit dolorem eos
+						pariatur. Obcaecati, soluta.
+					</p>
+					<h3>IF you want to work with us, send your resume below!!</h3>
+					<form action='#'>
+						<input type='file' name='resume' id='resume' />
+						<input type='submit' value='SEND' />
+					</form>
+				</div>
+			</div>
 			<ul className='memberList'>
 				{datas.map((data, idx) => {
 					return (
