@@ -104,6 +104,9 @@ function Aboutus() {
 								<SwiperSlide>
 									<img src={`${path}/img/interior6.jpg`} />
 								</SwiperSlide>
+								<SwiperSlide>
+									<img src={`${path}/img/interior7.jpg`} />
+								</SwiperSlide>
 							</Swiper>
 						</div>
 					</div>
@@ -136,6 +139,9 @@ function Aboutus() {
 								</SwiperSlide>
 								<SwiperSlide>
 									<img src={`${path}/img/fur5.jpg`} />
+								</SwiperSlide>
+								<SwiperSlide>
+									<img src={`${path}/img/fur6.jpg`} />
 								</SwiperSlide>
 							</Swiper>
 						</div>
