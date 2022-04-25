@@ -54,7 +54,6 @@ function App() {
 			<Route path='/visual' component={Visual} />
 
 			<Route path='/content' component={Content} />
-
 			<Footer />
 		</>
 	);

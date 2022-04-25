@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,6 +8,8 @@ function Header() {
 	const active = {
 		color: 'white',
 	};
+	const [open, setOpen] = useState(false);
+
 	return (
 		<header>
 			<div className='wrap'>
@@ -15,7 +18,13 @@ function Header() {
 						Variamain.
 					</NavLink>
 				</h1>
-				<FontAwesomeIcon icon={faBars} className='bars' />
+				<FontAwesomeIcon
+					icon={faBars}
+					onClick={() => {
+						setOpen(false);
+					}}
+					className='bars'
+				/>
 
 				<div className='nav'>
 					<div className='topnav'>
